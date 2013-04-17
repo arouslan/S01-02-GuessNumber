@@ -23,7 +23,7 @@ public class GConsoleUI implements UIGuessable {
     public void ShowCurrentInfo(int attemptRemainedCount, int tryingNumber, StatusGuessing currentStatus) {
         System.out.println("");
         switch (currentStatus) {
-            case GUESSED: {
+            case GUESSED: {  // todo тут скобки обычно не ставят
                 System.out.println("Поздравляю, вы победили!!!");
                 System.out.println("Было загадано x == " + tryingNumber);
                 break;

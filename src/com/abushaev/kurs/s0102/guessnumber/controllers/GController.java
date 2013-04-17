@@ -31,9 +31,12 @@ public class GController {
     }
 
     private int GetTryingNumber() {
-        int number =0;
+        int number =0; // todo отформатировать проект с помощью CTRL_ALT_L
         boolean isValid = false;
         while (!isValid) {
+            // todo тут, мне кажется, изящнее будет использовать
+            // todo Integer.valueOf(gUI.GetInput()) и ловить NumberFormatException,
+            // todo но это не обязательно исправлять
             Scanner scn = new Scanner(gUI.GetInput());
             try {
                 number = scn.nextInt();

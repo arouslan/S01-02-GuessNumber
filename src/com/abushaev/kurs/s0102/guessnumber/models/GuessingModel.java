@@ -13,6 +13,7 @@ public class GuessingModel extends ConceivingModel {
         return attemptCount;
     }
 
+    // todo все методы с маленькой
     private void ReduceAttempts() {
         attemptCount -= 1;
     }

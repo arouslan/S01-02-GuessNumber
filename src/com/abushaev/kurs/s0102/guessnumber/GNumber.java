@@ -14,6 +14,6 @@ public class GNumber {
     public static void main(String[] args) {
         GConsoleUI gUIConsole = new GConsoleUI();
         GController gController = new GController(gUIConsole);
-        gController.Run();
+        gController.Run();  // todo методы в java с маленькой буквы!
     }
 }
